@@ -1,0 +1,10 @@
+Question 5
+a. Output:
+[4,8,12,16,20]
+
+b. Output:
+[2,4,6,8,10,12,14,16,18,20]
+
+c. No ! The outputs are not the same. In part a, the filter happened first (filtered in the array even numbers), then took those numbers * 2. 
+In part b, the map function took all the numbers in the array * 2, then filter all the even numbers 
+(which in this case, all the numbers are odd because they already * 2 )
